@@ -143,7 +143,7 @@ declare namespace React {
         ref?: LegacyRef<T>;
     }
 
-    interface ReactElement<P = any, T extends string | JSXElementConstructor<any> = string | JSXElementConstructor<any>> {
+    interface ReactElement<P = any, T extends string | JSXElementConstructor<any> = string> {
         type: T;
         props: P;
         key: Key | null;
